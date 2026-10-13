@@ -14,6 +14,14 @@ Examples:
 - hello - Not a Palindrome
 - 121 - Palindrome
 - 123 - Not a Palindrome
+##python program
+text = input("Enter a number or string: ")
+
+if text == text[::-1]:
+    print("Palindrome")
+else:
+    print("Not a Palindrome")
+
 
 ## How to Run the Program
 1. Install Python on your computer.
